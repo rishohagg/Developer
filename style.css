@@ -11,12 +11,14 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 150px;
+
 }
-.div{
+.half-width{
     width: 50% ; 
     padding-left: 10%;  
 }
-.div img{
+.half-width img{
     width: 80%;
 }
 .button{
@@ -28,7 +30,16 @@ section{
     padding: 10px 40px;
     border-radius: 7px;
 }
+
 .top-section{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.dream-big{
+    background-position-x: right;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+}
+h2{
+    font-size: 50px;
 }
